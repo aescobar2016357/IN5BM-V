@@ -9,5 +9,27 @@
     <h1>Axel Rodrigo Escobar Arevalo - 2016357</h1>
     <p>Soy estudiante de Kinal</p>
     <h2>Centro Educativo Tecnico Kinal</h2>
+    
+    <form>
+        <label for="number1">Ingrese el primer numero</label>
+        <input type= "text" id="num1"><br>
+        <label for="number 2">Ingrese el segundo numero</label>
+        <input type= "text" id="num2"><br>
+        <input type="button" value="Operar->"><br>
+        <label for="resultado">La respuesta es:</label>
+        <input type= "text" id="num3"><br>
+    </form>
+
+    <script>
+        var n1,n2, result;
+        function suma(){
+            n1 = num1.value * 1;
+            n2 = num2.value * 1;
+            result = n1 + n2;
+            num3.value = result
+        }
+    </script>
+
+
 </body>
 </html>
